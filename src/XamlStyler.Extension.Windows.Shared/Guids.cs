@@ -2,6 +2,8 @@
 
 namespace Xavalon.XamlStyler.Extension.Windows
 {
+    // Original work © Xavalon contributors.
+    // Modified by Tunghs in 2026 for the Visual Studio 2026 distribution.
     internal static class Guids
     {
         public const string GuidXamlStylerPackageString = "22e4aa65-b494-46d6-9d96-852692fbbd03";

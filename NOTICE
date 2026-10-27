@@ -1,0 +1,22 @@
+XAML Styler for Visual Studio 2026
+Copyright 2026 Tunghs and contributors
+
+This distribution is a modified, unofficial fork of XAML Styler:
+https://github.com/Xavalon/XamlStyler
+
+Copyright in the original XAML Styler source remains with Xavalon and
+the respective XAML Styler contributors.
+
+The original work and this distribution are provided under the Apache
+License, Version 2.0. A complete copy of the license is included in the
+LICENSE file.
+
+The fork includes modifications for Visual Studio 2026 packaging and
+compatibility, including a separate VSIX identity, package and command
+identifiers, per-user installation, XAML editor activation, build metadata,
+and dependency updates. Modified files are recorded in the Git history.
+
+This fork is not affiliated with or endorsed by Xavalon or the upstream
+XAML Styler maintainers. Product names and trademarks are the property of
+their respective owners and are used only to identify the upstream work and
+the intended compatibility target.

@@ -3,6 +3,8 @@ using System.Reflection;
 using System.Resources;
 using System.Runtime.InteropServices;
 
+// Modified by Tunghs in 2026 for the Visual Studio 2026 distribution.
+
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
@@ -11,7 +13,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Tunghs")]
 [assembly: AssemblyProduct("XamlStyler.Extension.Windows.VS2026")]
-[assembly: AssemblyCopyright("Copyright © Xavalon contributors and Tunghs 2026")]
+[assembly: AssemblyCopyright("Original work © Xavalon contributors; modifications © Tunghs 2026")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 [assembly: ComVisible(false)]

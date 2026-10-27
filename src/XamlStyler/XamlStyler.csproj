@@ -27,6 +27,7 @@
 <ItemGroup>
     <PackageReference Include="Irony" Version="1.5.3">
     </PackageReference>
+    <!-- Updated by Tunghs in 2026 for the Visual Studio 2026 distribution. -->
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3">
     </PackageReference>
   </ItemGroup>

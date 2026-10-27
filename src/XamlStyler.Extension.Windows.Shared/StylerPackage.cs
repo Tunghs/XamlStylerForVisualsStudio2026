@@ -21,6 +21,8 @@ using Task = System.Threading.Tasks.Task;
 
 namespace Xavalon.XamlStyler.Extension.Windows
 {
+    // Original work © Xavalon contributors.
+    // Modified by Tunghs in 2026 for the Visual Studio 2026 distribution.
     [ProvideLoadKey("Standard", "2.1", "XAML Styler", "Xavalon", 104)]
     [PackageRegistration(UseManagedResourcesOnly = true, AllowsBackgroundLoading = true)]
     [InstalledProductRegistration("#1110", "#1112", "3.1", IconResourceID = 1400)] // Info on this package for Help/About
