@@ -214,10 +214,10 @@
     </GuidSymbol>
 
     <!-- This is the package guid. -->
-    <GuidSymbol name="GuidXamlStylerPackage" value="{a224be3c-88d1-4a57-9804-181dbef68021}" />
+    <GuidSymbol name="GuidXamlStylerPackage" value="{22e4aa65-b494-46d6-9d96-852692fbbd03}" />
 
     <!-- These are the symbols for all menu items provided by XAML Styler -->
-    <GuidSymbol name="GuidXamlStylerMenuSet" value="{83fc41d5-eacb-4fa8-aaa3-9a9bdd5f6407}">
+    <GuidSymbol name="GuidXamlStylerMenuSet" value="{7a406667-a27e-4495-a2ef-6f9cdcceec0c}">
       <!-- These are the command sets for the document context menus -->
       <IDSymbol name="GroupIDXamlStylerMenu" value="0x1020" />
 
@@ -245,7 +245,7 @@
     </GuidSymbol>
 
     <!-- These are the guids for images -->
-    <GuidSymbol name="GuidImageFormat" value="{c2b97881-5cae-4577-b91b-07bdfefcb2fd}" >
+    <GuidSymbol name="GuidImageFormat" value="{42e58d71-ee10-409e-9626-23f03fed03c4}" >
       <IDSymbol name="IconFormat" value="1" />
     </GuidSymbol>
   </Symbols>

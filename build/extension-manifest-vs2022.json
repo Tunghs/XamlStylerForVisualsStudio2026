@@ -6,7 +6,7 @@
         "programming languages"
     ],
     "identity": {
-        "internalName": "XAMLStyler2022",
+        "internalName": "XamlStylerForVisualStudio2026",
         "tags": [
             "beautifier",
             "beautify",
@@ -32,8 +32,8 @@
     },
     "overview": "./extension-overview.md",
     "priceCategory": "free",
-    "publisher": "TeamXavalon",
+    "publisher": "Tunghs",
     "private": false,
     "qna": false,
-    "repo": "https://github.com/Xavalon/XamlStyler"
+    "repo": "https://github.com/Tunghs/XamlStylerForVisualsStudio2026"
 }

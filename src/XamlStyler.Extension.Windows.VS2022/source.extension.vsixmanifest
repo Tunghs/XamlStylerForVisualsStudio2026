@@ -1,22 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="2c8bcbae-2bdd-46e4-8856-ce48cf9a7223" Version="3.1.0.0" Language="en-US" Publisher="Xavalon" />
-        <DisplayName>XAML Styler for Visual Studio 2022</DisplayName>
-        <Description xml:space="preserve">XAML Styler is a visual studio extension that formats XAML source code based on a set of styling rules. This tool can help you/your team maintain a better XAML coding style as well as a much better XAML readability.</Description>
-        <MoreInfo>https://github.com/Xavalon/XamlStyler/</MoreInfo>
+        <Identity Id="Tunghs.XamlStylerForVisualStudio2026" Version="1.0.0.0" Language="en-US" Publisher="Tunghs" />
+        <DisplayName>XAML Styler for Visual Studio 2026</DisplayName>
+        <Description xml:space="preserve">An unofficial Visual Studio 2026 build of XAML Styler that formats XAML source code based on configurable styling rules.</Description>
+        <MoreInfo>https://github.com/Tunghs/XamlStylerForVisualsStudio2026</MoreInfo>
         <License>LICENSE</License>
         <GettingStartedGuide>https://github.com/Xavalon/XamlStyler/wiki/Getting-Started</GettingStartedGuide>
         <Icon>Resources\icon128.jpg</Icon>
         <PreviewImage>Resources\icon200.jpg</PreviewImage>
         <Tags>formatting,format,formatter,style,uwp,wpf,xaml</Tags>
     </Metadata>
-    <!-- Visual Studio extensions and version ranges demystified: https://devblogs.microsoft.com/visualstudio/visual-studio-extensions-and-version-ranges-demystified/ -->
-    <Installation AllUsers="true">
-        <InstallationTarget Version="[17.8,18.0)" Id="Microsoft.VisualStudio.Community">
+    <!-- Visual Studio 2026 supports extensions targeting the stable Visual Studio 17.x API surface. -->
+    <Installation>
+        <InstallationTarget Version="[17.8,)" Id="Microsoft.VisualStudio.Community">
             <ProductArchitecture>amd64</ProductArchitecture>
         </InstallationTarget>
-        <InstallationTarget Version="[17.8,18.0)" Id="Microsoft.VisualStudio.Community">
+        <InstallationTarget Version="[17.8,)" Id="Microsoft.VisualStudio.Community">
             <ProductArchitecture>arm64</ProductArchitecture>
         </InstallationTarget>
     </Installation>

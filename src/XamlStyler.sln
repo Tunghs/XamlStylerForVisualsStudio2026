@@ -15,7 +15,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XamlStyler.Extension", "Xam
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "XamlStyler.Extension.Windows.Shared", "XamlStyler.Extension.Windows.Shared\XamlStyler.Extension.Windows.Shared.shproj", "{01231F73-66EF-4F3E-8DFD-95BF935BF8EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamlStyler.Extension.Windows.VS2022", "XamlStyler.Extension.Windows.VS2022\XamlStyler.Extension.Windows.VS2022.csproj", "{88F93CB7-4B73-41C7-B3BD-EAFA11173656}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamlStyler.Extension.Windows.VS2026", "XamlStyler.Extension.Windows.VS2022\XamlStyler.Extension.Windows.VS2022.csproj", "{88F93CB7-4B73-41C7-B3BD-EAFA11173656}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution

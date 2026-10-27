@@ -1,4 +1,13 @@
 # XAML Styler
+
+This fork packages XAML Styler as a separate, per-user VSIX for Visual Studio 2026. It uses a distinct extension identity and package GUIDs, so the installer treats it separately from the official XAML Styler extension. Do not enable both editions in the same Visual Studio instance because they expose the same commands and settings pages.
+
+## Visual Studio 2026 development
+
+Open `src/XamlStyler.sln` in Visual Studio 2026 and set `XamlStyler.Extension.Windows.VS2026` as the startup project. Press F5 to launch the experimental instance.
+
+The VSIX is generated under `src/bin/<Configuration>/Extension.Windows.VS2026/`. The manifest targets the stable Visual Studio 17.x API surface, which Visual Studio 2026 supports, and installs per user.
+
 XAML Styler is a visual studio extension that formats XAML source code based on a set of styling rules. This tool can help you/your team maintain a better XAML coding style as well as a much better XAML readability.
 
 |[Documentation](https://github.com/Xavalon/XamlStyler/wiki)|[Script Integration](https://github.com/Xavalon/XamlStyler/wiki/Script-Integration)|[Release Notes](https://github.com/Xavalon/XamlStyler/releases)|[Contributing](https://github.com/Xavalon/XamlStyler/blob/master/CONTRIBUTING.md)|

@@ -30,7 +30,12 @@ namespace Xavalon.XamlStyler.Extension.Windows
     [ProvideOptionPage(typeof(PackageOptions), "XAML Styler", "General", 101, 106, true)]
     [ProvideProfile(typeof(PackageOptions), "XAML Styler", "XAML Styler Settings", 106, 107, true, DescriptionResourceID = 108)]
     [ProvideAutoLoad(Guids.UIContextGuidString, PackageAutoLoadFlags.BackgroundLoad)]
-    [ProvideUIContextRule(Guids.UIContextGuidString, name: "XAML load", expression: "Dotxaml", termNames: new[] { "Dotxaml" }, termValues: new[] { "HierSingleSelectionName:.xaml$" })]
+    [ProvideUIContextRule(
+        Guids.UIContextGuidString,
+        name: "XAML load",
+        expression: "SelectedXaml | ActiveXamlEditor",
+        termNames: new[] { "SelectedXaml", "ActiveXamlEditor" },
+        termValues: new[] { "HierSingleSelectionName:.xaml$", "ActiveEditorContentType:XAML" })]
     public sealed partial class StylerPackage : AsyncPackage
     {
         private IVsUIShell uiShell;
@@ -210,7 +215,7 @@ namespace Xavalon.XamlStyler.Extension.Windows
                 0,
                 ref clsid,
                 $"Error in {this.GetType().Name}:",
-                $"{ex.Message}\r\n\r\nIf this deems a malfunctioning of styler, please kindly submit an issue at https://github.com/Xavalon/XamlStyler.",
+                $"{ex.Message}\r\n\r\nIf this appears to be a styler malfunction, please submit an issue at https://github.com/Tunghs/XamlStylerForVisualsStudio2026.",
                 String.Empty,
                 0,
                 OLEMSGBUTTON.OLEMSGBUTTON_OK,
